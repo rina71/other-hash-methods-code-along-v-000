@@ -9,6 +9,6 @@ groceries = {
 }
 
 def get_the_min(groceries)
-  groceries.values.each{|data|data.sort return data[0]}
+  groceries.values.flatten
   binding.pry
 end
