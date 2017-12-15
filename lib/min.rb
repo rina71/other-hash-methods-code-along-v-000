@@ -10,4 +10,5 @@ groceries = {
 
 def get_the_min(groceries)
   groceries.values.sort
+  binding.pry
 end
